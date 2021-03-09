@@ -1,4 +1,4 @@
-`#tag-1` `#tag-2` `#tag-3` `#assembler-school` `#master-in-software-engineering`
+`#tag-1` `#tag-2` `#demo-pr` `#assembler-school` `#master-in-software-engineering`
 
 # Assembler School: Pill | Project Title
 
