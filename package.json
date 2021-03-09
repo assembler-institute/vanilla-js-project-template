@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-js-project-template",
+  "version": "1.0.0",
+  "description": "Assembler School: [vanilla-js-project-template]",
+  "keywords": [
+    "vanilla-js-project-template",
+    "assembler school"
+  ],
+  "author": "Dani Lucaci <dani@assemblerschool.com>",
+  "license": "MIT",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assembler-school/react-hooks-workshop.git"
+  }
+}
