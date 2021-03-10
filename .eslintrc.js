@@ -7,19 +7,17 @@ module.exports = {
     jquery: true,
   },
   extends: [
-    "airbnb",
-    "airbnb-babel",
     "eslint:recommended",
     "plugin:compat/recommended",
     "plugin:jest/recommended",
     "prettier",
     "prettier/prettier",
-    "prettier/standard",
   ],
-  parser: "eslint-parser",
+  parser: "@babel/eslint-parser",
   parserOptions: {
     ecmaVersion: 12,
     sourceType: "module",
+    requireConfigFile: "false",
   },
   plugins: ["@html-eslint", "jest", "json-format"],
   overrides: [
