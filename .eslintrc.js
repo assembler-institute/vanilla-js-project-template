@@ -19,7 +19,7 @@ module.exports = {
     sourceType: "module",
     requireConfigFile: "false",
   },
-  plugins: ["@html-eslint", "jest", "json-format"],
+  plugins: ["@html-eslint", "jest"],
   overrides: [
     {
       files: ["*.html"],
