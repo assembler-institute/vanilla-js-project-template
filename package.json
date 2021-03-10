@@ -6,15 +6,51 @@
     "vanilla-js-project-template",
     "assembler school"
   ],
-  "author": "Dani Lucaci <dani@assemblerschool.com>",
+  "contributors": [
+    {
+      "name": "Dani Lucaci",
+      "email": "danilucaci@gmail.com",
+      "url": "https://www.danilucaci.com/"
+    }
+  ],
   "license": "MIT",
   "private": true,
   "main": "src/index.js",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "lint:js": "eslint . --ext .js",
+    "lint:js:fix": "yarn run lint:js -- --fix",
+    "lint:format": "prettier --write .",
+    "lint:format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/assembler-school/react-hooks-workshop.git"
-  }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "@html-eslint/eslint-plugin": "^0.8.0",
+    "@html-eslint/parser": "^0.8.0",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-babel": "^0.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-compat": "^3.9.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-jest": "^24.2.1",
+    "eslint-plugin-json-format": "^2.0.1"
+  },
+  "dependencies": {}
 }
