@@ -6,27 +6,61 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# Assembler School: Pill | Project Title
+# Assembler School: Pill | Project Title <!-- omit in toc -->
 
-One Paragraph of project description goes here.
+---
+
+#### DELETE THIS MESSAGE AND THE TOP AND BOTTOM SEPARATORS IN THE FINAL VERSION OF THIS `README.md`
+
+Brief explanation of the purpose of this project, which is what they are going
+to create, the objective of carrying out this project.
+
+You can separate the explanation in different paragraphs, use all the paragraphs
+that you need without going overboard.
+
+**A more detailed description with all the requirements and steps that the
+students need to complete for the project will be included in the Google Docs
+version of the requirements document.**
+
+**Feel free to add any supporting info in the `README` such as images, links,
+etc**
+
+**Examples:**
+
+---
+
+> In this workshop you will learn how to build backend apps with Node.js.
+
+> Voluptate excepteur occaecat enim minim tempor. Quis velit aute excepteur
+> adipisicing enim excepteur nulla Lorem in cupidatat sint. Lorem non occaecat
+> voluptate tempor excepteur. Exercitation ea quis labore nisi dolor labore.
+> Exercitation minim officia Lorem excepteur nisi aliqua commodo cupidatat. Et
+> officia deserunt nostrud anim.
+
+# Index <!-- omit in toc -->
+
+- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [Technologies used](#technologies-used)
+- [Project requirements](#project-requirements)
+- [Project delivery](#project-delivery)
+- [Resources](#resources)
+- [License](#license)
+- [Contributors ✨](#contributors-)
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your
 local machine for development and testing purposes. See deployment for notes on
-how to deploy the project on a live system.
+how to deploy the project on a live system (**if it applies to this
+project/pill**).
 
-### Prerequisites
+### The repository
 
-What things you need to install the software and how to install them
+First, you will need to `clone` or `fork` the repository into your Github
+account:
 
-```
-Give examples
-```
-
-### The repo
-
-First, you will need to clone the repo:
+<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
 
 ```
 $ git clone https://github.com/assembler-school/[PROJECT-OR-PILL-NAME].git
@@ -34,10 +68,16 @@ $ git clone https://github.com/assembler-school/[PROJECT-OR-PILL-NAME].git
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env
-running
+---
 
-Say what the step will be
+#### DELETE THIS MESSAGE AND THE TOP AND BOTTOM SEPARATORS IN THE FINAL VERSION OF THIS `README.md`
+
+**Include this section only if the pill/project needs a previous installation
+step like `npm install`.**
+
+---
+
+First, you will need to install the dependencies with: `npm install`
 
 ```
 Give the example
@@ -52,7 +92,15 @@ until finished
 End with an example of getting some data out of the system or using it for a
 little demo
 
-## Running the tests
+### Running the tests
+
+---
+
+#### DELETE THIS MESSAGE AND THE TOP AND BOTTOM SEPARATORS IN THE FINAL VERSION OF THIS `README.md`
+
+**Include this section only if the pill/project has tests.**
+
+---
 
 Explain how to run the automated tests for this system
 
@@ -74,40 +122,85 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+---
 
-## Built With
+#### DELETE THIS MESSAGE AND THE TOP AND BOTTOM SEPARATORS IN THE FINAL VERSION OF THIS `README.md`
 
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+**Include this section only if the pill/project has tests.**
 
-## Contributing
+---
 
-Please read
-[CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for
-details on our code of conduct, and the process for submitting pull requests to
-us.
+Add additional notes about how to deploy this to Netlify, Heroku, etc if the
+project requires deployment.
 
-## Authors
+## Technologies used
 
-- **Billie Thompson** - _Initial work_ -
-  [PurpleBooth](https://github.com/PurpleBooth)
+---
 
-See also the list of
-[contributors](https://github.com/your/project/contributors) who participated in
-this project.
+#### DELETE THIS MESSAGE AND THE TOP AND BOTTOM SEPARATORS IN THE FINAL VERSION OF THIS `README.md`
+
+**This section details the technologies that are used in the project.**
+
+**Here are some examples of technologies used:**
+
+---
+
+- HTML
+- CSS
+- JS
+- LocalStorage
+- ...
+
+## Project requirements
+
+---
+
+#### DELETE THIS MESSAGE AND THE TOP AND BOTTOM SEPARATORS IN THE FINAL VERSION OF THIS `README.md`
+
+This section details the **main requirements** of the project that the student
+must take into account when they deliver their solution.
+
+A more **detailed description with all the requirements and steps** that the
+students need to complete for the project will be included in the **Google Docs
+version of the requirements document.**
+
+**Here are some examples of project requirements:**
+
+---
+
+- You must develop this project using a single HTML page
+- You cannot use third-party libraries
+- You must use semantic HTML5 elements for all the contents of the application
+
+## Project delivery
+
+To deliver this project you must follow the steps indicated in the document:
+
+- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
+
+## Resources
+
+---
+
+#### DELETE THIS MESSAGE AND THE TOP AND BOTTOM SEPARATORS IN THE FINAL VERSION OF THIS `README.md`
+
+This section include all the main resources that the students should check for
+learning more about the technologies they are using or that might apply to their
+project.
+
+**Here are some examples of resources:**
+
+---
+
+- [JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
+- [JavaScript Dates](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date)
+- [LocalStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+- [...](...)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 for details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## Contributors ✨
 
